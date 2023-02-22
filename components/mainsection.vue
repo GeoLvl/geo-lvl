@@ -10,10 +10,10 @@
             </p>
             <p class="text-2xl my-6 font-extralight">
             Retrouvez mon profil <a class="link" href="https://www.linkedin.com/in/glaville/" target="_blank">LinkedIn</a> pour en savoir plus sur mes précédentes expériences. <br>
-            Pour les plus curieux d'entre vous, vous pouvez égalemment visiter ma page <a class="link" href="https://github.com/GeoLvl" target="_blank">Github</a> et retrouver l'ensemble de mes projets.
+            Pour les plus curieux d'entre vous, vous pouvez égalemment visiter ma page <a class="link" href="https://github.com/GeoLvl" target="_blank">Github</a> et retrouver l'ensemble de <NuxtLink class="link" to="/projects">mes projets.</NuxtLink>
             </p>
             <p class="text-2xl my-6 font-extralight">
-            En dehors du dev, je suis passionné de musique, de sport,<br> de cuisine et surtout des couteaux japonais (les vrais). <br>
+            En dehors du dev, je suis passionné de musique, de sport, de cuisine et surtout des couteaux japonais (les vrais). <br>
             J'aime l'aventure et l'Australie.
             </p>
         </div>
@@ -39,7 +39,7 @@
     right: -0.1em;
     bottom: 0;
     transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-    background-color: rgb(222, 222, 222);
+    background-color: #FF6400;
 }
 .link:hover:after {
     top: 0%;
